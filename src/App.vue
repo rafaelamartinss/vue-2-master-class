@@ -1,9 +1,5 @@
-<script setup>
-import Thread from "./components/Thread.vue";
-</script>
-
 <template>
   <div id="app">
-    <thread />
+    <router-view></router-view>
   </div>
 </template>
